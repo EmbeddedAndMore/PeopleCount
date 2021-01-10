@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mohamad/CLionProjects/BlobDetection/ConcurrentQueue.h
+queue
+-
+thread
+-
+mutex
+-
+condition_variable
+-
+
+/home/mohamad/CLionProjects/BlobDetection/main.cpp
+iostream
+-
+stdio.h
+-
+opencv4/opencv2/opencv.hpp
+-
+vector
+-
+thread
+-
+chrono
+-
+string
+-
+ConcurrentQueue.h
+/home/mohamad/CLionProjects/BlobDetection/ConcurrentQueue.h
+

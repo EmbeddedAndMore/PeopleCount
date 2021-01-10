@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mohamad/CLionProjects/BlobDetection/main.cpp
+iostream
+-
+opencv4/opencv2/opencv.hpp
+-
+vector
+-
+
